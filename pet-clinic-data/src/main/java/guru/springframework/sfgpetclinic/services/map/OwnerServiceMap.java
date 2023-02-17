@@ -5,9 +5,7 @@ import guru.springframework.sfgpetclinic.services.CrudService;
 
 import java.util.Set;
 
-/**
- * Created by jt on 7/21/18.
- */
+
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements CrudService<Owner, Long> {
 
     @Override

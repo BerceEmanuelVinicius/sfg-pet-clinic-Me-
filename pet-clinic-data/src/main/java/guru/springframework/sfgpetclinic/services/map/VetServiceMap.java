@@ -5,9 +5,7 @@ import guru.springframework.sfgpetclinic.services.CrudService;
 
 import java.util.Set;
 
-/**
- * Created by jt on 7/21/18.
- */
+
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
 
     @Override

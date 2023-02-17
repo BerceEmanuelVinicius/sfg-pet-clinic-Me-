@@ -5,9 +5,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-/**
- * Created by jt on 7/21/18.
- */
+
 public abstract class AbstractMapService<T, ID> {
 
     protected Map<ID, T> map = new HashMap<>();

@@ -5,9 +5,6 @@ import guru.springframework.sfgpetclinic.services.CrudService;
 
 import java.util.Set;
 
-/**
- * Created by jt on 7/21/18.
- */
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
     @Override
     public Set<Pet> findAll() {
